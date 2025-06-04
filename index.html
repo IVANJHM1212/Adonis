@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Joyería Adonis</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="main-header" class="header">
+      <div class="container">
+        <div class="logo">
+          <img src="img/adonis.png" alt="Adonis" />
+          <span>ADONIS</span>
+        </div>
+
+        <nav class="nav-links">
+          <a href="#">Inicio</a>
+          <a href="#">Colección</a>
+          <a href="#">Nosotros</a>
+          <a href="#">Sucursales</a>
+          <a href="#">Contacto</a>
+        </nav>
+
+        <div class="icons">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-search-icon lucide-search"
+          >
+            <path d="m21 21-4.34-4.34" />
+            <circle cx="11" cy="11" r="8" />
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-user-icon lucide-user"
+          >
+            <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2" />
+            <circle cx="12" cy="7" r="4" />
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-shopping-bag-icon lucide-shopping-bag"
+          >
+            <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z" />
+            <path d="M3 6h18" />
+            <path d="M16 10a4 4 0 0 1-8 0" />
+          </svg>
+          <button class="menu-toggle" id="menuToggle">&#9776;</button>
+        </div>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="hero-overlay"></div>
+
+      <div class="hero-content">
+        <div class="hero-icon">
+          <div class="circle">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-sparkles-icon lucide-sparkles"
+            >
+              <path
+                d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"
+              />
+              <path d="M20 3v4" />
+              <path d="M22 5h-4" />
+              <path d="M4 17v2" />
+              <path d="M5 18H3" />
+            </svg>
+          </div>
+        </div>
+
+        <h1><span>Joyería</span> <strong>ADONIS</strong></h1>
+        <p>
+          Elegancia atemporal en cada pieza. Trabajos artesanales en oro, plata
+          y piedras preciosas.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#" class="btn btn-yellow">Explorar Colección</a>
+          <a href="#" class="btn btn-glass">Nuestras Sucursales</a>
+        </div>
+
+        <div class="scroll-indicator"></div>
+      </div>
+    </section>
+
+    <section class="categorias">
+      <div class="container-categorias">
+        <h2>Nuestras <strong>Categorías</strong></h2>
+        <p class="subtitulo">
+          Descubre nuestra exclusiva selección de joyas diseñadas para cada
+          momento especial
+        </p>
+
+        <div class="grid-categorias">
+          <div class="card-categoria">
+            <div class="icono">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-hand-icon lucide-hand"
+              >
+                <path d="M18 11V6a2 2 0 0 0-2-2a2 2 0 0 0-2 2" />
+                <path d="M14 10V4a2 2 0 0 0-2-2a2 2 0 0 0-2 2v2" />
+                <path d="M10 10.5V6a2 2 0 0 0-2-2a2 2 0 0 0-2 2v8" />
+                <path
+                  d="M18 8a2 2 0 1 1 4 0v6a8 8 0 0 1-8 8h-2c-2.8 0-4.5-.86-5.99-2.34l-3.6-3.6a2 2 0 0 1 2.83-2.82L7 15"
+                />
+              </svg>
+            </div>
+            <h3>Anillos</h3>
+            <p>Compromiso y matrimonio</p>
+            <a href="#">Explorar →</a>
+          </div>
+
+          <div class="card-categoria">
+            <div class="icono">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-gem-icon lucide-gem"
+              >
+                <path d="M6 3h12l4 6-10 13L2 9Z" />
+                <path d="M11 3 8 9l4 13 4-13-3-6" />
+                <path d="M2 9h20" />
+              </svg>
+            </div>
+            <h3>Aros</h3>
+            <p>Elegancia para cada ocasión</p>
+            <a href="#">Explorar →</a>
+          </div>
+
+          <div class="card-categoria">
+            <div class="icono">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-watch-icon lucide-watch"
+              >
+                <circle cx="12" cy="12" r="6" />
+                <polyline points="12 10 12 12 13 13" />
+                <path
+                  d="m16.13 7.66-.81-4.05a2 2 0 0 0-2-1.61h-2.68a2 2 0 0 0-2 1.61l-.78 4.05"
+                />
+                <path
+                  d="m7.88 16.36.8 4a2 2 0 0 0 2 1.61h2.72a2 2 0 0 0 2-1.61l.81-4.05"
+                />
+              </svg>
+            </div>
+            <h3>Relojes</h3>
+            <p>Precisión y estilo</p>
+            <a href="#">Explorar →</a>
+          </div>
+
+          <div class="card-categoria">
+            <div class="icono">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-lasso-icon lucide-lasso"
+              >
+                <path d="M7 22a5 5 0 0 1-2-4" />
+                <path
+                  d="M3.3 14A6.8 6.8 0 0 1 2 10c0-4.4 4.5-8 10-8s10 3.6 10 8-4.5 8-10 8a12 12 0 0 1-5-1"
+                />
+                <path d="M5 18a2 2 0 1 0 0-4 2 2 0 0 0 0 4z" />
+              </svg>
+            </div>
+            <h3>Collares</h3>
+            <p>Sofisticación única</p>
+            <a href="#">Explorar →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="productos">
+      <div class="container-productos">
+        <h2>Productos <strong>Destacados</strong></h2>
+        <p class="subtitulo">
+          Piezas únicas seleccionadas especialmente para ti
+        </p>
+
+        <div class="grid-productos">
+          <div class="card-producto">
+            <span class="badge verde">Nuevo</span>
+            <div class="imagen-producto">
+              <img src="img/anillo.jpeg" alt="" />
+            </div>
+            <div class="info">
+              <span class="categoria">Anillos</span>
+              <h3>Anillo Solitario Oro 18k</h3>
+              <p class="precio">
+                $450.000 <span class="precio-anterior">$520.000</span>
+              </p>
+            </div>
+          </div>
+
+          <div class="card-producto">
+            <span class="badge azul">Más Vendido</span>
+            <div class="imagen-producto">
+              <img src="img/aros.jpg" alt="" />
+            </div>
+            <div class="info">
+              <span class="categoria">Aros</span>
+              <h3>Aros Perla Plata 925</h3>
+              <p class="precio">$85.000</p>
+            </div>
+          </div>
+
+          <div class="card-producto">
+            <div class="imagen-producto">
+              <img src="img/collar.jpg" alt="" />
+            </div>
+            <div class="info">
+              <span class="categoria">Collares</span>
+              <h3>Collar Cadena Oro Rosa</h3>
+              <p class="precio">
+                $320.000 <span class="precio-anterior">$380.000</span>
+              </p>
+            </div>
+          </div>
+
+          <div class="card-producto">
+            <span class="badge verde">Nuevo</span>
+            <div class="imagen-producto">
+              <img src="img/pulsera.jpg" alt="" />
+            </div>
+            <div class="info">
+              <span class="categoria">Pulseras</span>
+              <h3>Pulsera Tennis Plata</h3>
+              <p class="precio">$150.000</p>
+            </div>
+          </div>
+        </div>
+
+        <a href="#" class="btn-ver-mas">Ver Toda la Colección</a>
+      </div>
+    </section>
+
+    <section class="servicios">
+      <div class="container-servicios">
+        <h2>Nuestros <strong>Servicios</strong></h2>
+        <p class="subtitulo">Comprometidos con la excelencia en cada detalle</p>
+
+        <div class="grid-servicios">
+          <div class="servicio">
+            <div class="icono-servicio">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="50"
+                height="50"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-award-icon lucide-award"
+              >
+                <path
+                  d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526"
+                />
+                <circle cx="12" cy="8" r="6" />
+              </svg>
+            </div>
+            <h3>Calidad Premium</h3>
+            <p>
+              Materiales de la más alta calidad certificados internacionalmente
+            </p>
+          </div>
+
+          <div class="servicio">
+            <div class="icono-servicio">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="50"
+                height="50"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-shield-icon lucide-shield"
+              >
+                <path
+                  d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"
+                />
+              </svg>
+            </div>
+            <h3>Garantía Extendida</h3>
+            <p>Garantía completa en todos nuestros productos y servicios</p>
+          </div>
+
+          <div class="servicio">
+            <div class="icono-servicio">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="50"
+                height="50"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-wrench-icon lucide-wrench"
+              >
+                <path
+                  d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"
+                />
+              </svg>
+            </div>
+            <h3>Servicio Técnico</h3>
+            <p>Reparación y mantenimiento especializado para tus joyas</p>
+          </div>
+
+          <div class="servicio">
+            <div class="icono-servicio">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="50"
+                height="50"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-sparkles-icon lucide-sparkles"
+              >
+                <path
+                  d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"
+                />
+                <path d="M20 3v4" />
+                <path d="M22 5h-4" />
+                <path d="M4 17v2" />
+                <path d="M5 18H3" />
+              </svg>
+            </div>
+            <h3>Diseños Únicos</h3>
+            <p>
+              Creación de piezas personalizadas según tus gustos y preferencias
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sobre-nosotros">
+      <div class="glass-container">
+        <div class="glass-lights"></div>
+        <div class="card-nosotros">
+          <h2>Sobre <strong>Nosotros</strong></h2>
+          <div class="contenido">
+            <div class="texto">
+              <p>
+                En Joyería Adonis, cada pieza cuenta una historia única. Desde
+                2010, nos hemos dedicado a crear joyas excepcionales que
+                trascienden el tiempo y las tendencias.
+              </p>
+              <p>
+                Nuestros artesanos expertos trabajan con metales preciosos y
+                piedras cuidadosamente seleccionadas, garantizando la más alta
+                calidad en cada creación.
+              </p>
+              <p>
+                Con presencia en Chicureo y Colina, ofrecemos una experiencia
+                personalizada que refleja la elegancia y sofisticación que nos
+                caracteriza.
+              </p>
+            </div>
+            <div class="items">
+              <div class="item">
+                <div class="icono-amplio">15+</div>
+                <div>
+                  <strong>Años de Experiencia</strong>
+                  <p>Creando momentos únicos</p>
+                </div>
+              </div>
+              <div class="item">
+                <div class="icono-amplio">2</div>
+                <div>
+                  <strong>Sucursales</strong>
+                  <p>Chicureo y Colina</p>
+                </div>
+              </div>
+              <div class="item">
+                <div class="icono-amplio">∞</div>
+                <div>
+                  <strong>Diseños Únicos</strong>
+                  <p>Piezas personalizadas</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sucursales">
+      <div class="container-sucursales">
+        <h2>Nuestras <strong>Sucursales</strong></h2>
+        <p class="subtitulo">
+          Te esperamos en nuestras elegantes tiendas para brindarte una
+          experiencia única
+        </p>
+
+        <div class="grid-sucursales">
+          <!-- Sucursal Chicureo -->
+          <div class="card-sucursal">
+            <div class="sucursal-header">
+              <div class="icono">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-map-pin-icon lucide-map-pin"
+                >
+                  <path
+                    d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"
+                  />
+                  <circle cx="12" cy="10" r="3" />
+                </svg>
+              </div>
+              <h3>Chicureo</h3>
+            </div>
+            <p>
+              <strong>Av. Chicureo 1234, Local 56</strong><br />Chicureo, Región
+              Metropolitana
+            </p>
+            <p>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-phone-icon lucide-phone"
+              >
+                <path
+                  d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"
+                />
+              </svg>
+              +56 9 6438 1671
+            </p>
+            <p>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-clock-icon lucide-clock"
+              >
+                <circle cx="12" cy="12" r="10" />
+                <polyline points="12 6 12 12 16 14" />
+              </svg>
+              Lunes a Sábado: 10:00 - 19:00 hrs
+            </p>
+            <div class="botones">
+              <a
+                href="https://www.google.com/maps?q=Av.+Chicureo+1234,+Local+56"
+                target="_blank"
+                class="btn btn-mapa"
+                >Ver en Mapa</a
+              >
+              <a href="tel:+56964381671" class="btn btn-llamar">Llamar</a>
+            </div>
+          </div>
+
+          <!-- Sucursal Colina -->
+          <div class="card-sucursal">
+            <div class="sucursal-header">
+              <div class="icono">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-map-pin-icon lucide-map-pin"
+                >
+                  <path
+                    d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"
+                  />
+                  <circle cx="12" cy="10" r="3" />
+                </svg>
+              </div>
+              <h3>Colina</h3>
+            </div>
+            <p>
+              <strong>Av. Colina 5678, Chamisero</strong><br />Colina, Región
+              Metropolitana
+            </p>
+            <p>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-phone-icon lucide-phone"
+              >
+                <path
+                  d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"
+                />
+              </svg>
+              +56 9 5609 2140
+            </p>
+            <p>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-clock-icon lucide-clock"
+              >
+                <circle cx="12" cy="12" r="10" />
+                <polyline points="12 6 12 12 16 14" /></svg
+              >Lunes a Sábado: 10:00 - 19:00 hrs
+            </p>
+            <div class="botones">
+              <a
+                href="https://www.google.com/maps?q=Av.+Colina+5678,+Chamisero"
+                target="_blank"
+                class="btn btn-mapa"
+                >Ver en Mapa</a
+              >
+              <a href="tel:+56956092140" class="btn btn-llamar">Llamar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <!-- Marca -->
+        <div class="footer-col">
+          <div class="footer-brand">
+            <div class="footer-icon">
+              <img src="img/adonis.png" alt="" />
+            </div>
+            <h3>ADONIS</h3>
+          </div>
+          <p>
+            Elegancia atemporal en cada pieza. Trabajos artesanales en oro,
+            plata y piedras preciosas desde 2010.
+          </p>
+          <div class="footer-social">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+          </div>
+        </div>
+
+        <!-- Enlaces -->
+        <div class="footer-col">
+          <h4>Enlaces</h4>
+          <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Colección</a></li>
+            <li><a href="#">Nosotros</a></li>
+            <li><a href="#">Sucursales</a></li>
+            <li><a href="#">Contacto</a></li>
+          </ul>
+        </div>
+
+        <!-- Categorías -->
+        <div class="footer-col">
+          <h4>Categorías</h4>
+          <ul>
+            <li><a href="#">Anillos</a></li>
+            <li><a href="#">Aros</a></li>
+            <li><a href="#">Collares</a></li>
+            <li><a href="#">Pulseras</a></li>
+            <li><a href="#">Relojes</a></li>
+          </ul>
+        </div>
+
+        <!-- Contacto -->
+        <div class="footer-col">
+          <h4>Contacto</h4>
+          <p>
+            <i class="fas fa-map-marker-alt"></i> Chicureo: Av. Chicureo 1234<br />Colina:
+            Av. Colina 5678
+          </p>
+          <p>
+            <i class="fas fa-phone"></i> +56 9 6438 1671<br />+56 9 5609 2140
+          </p>
+          <p><i class="fas fa-envelope"></i> contacto@joyasadonis.cl</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 Joyería Adonis. Todos los derechos reservados.</p>
+      </div>
+    </footer>
+
+    <script>
+      const header = document.getElementById("main-header");
+      const menuToggle = document.getElementById("menuToggle");
+      const navLinks = document.querySelector(".nav-links");
+
+      window.addEventListener("scroll", () => {
+        if (window.scrollY > 50) {
+          header.classList.add("scrolled");
+        } else {
+          header.classList.remove("scrolled");
+        }
+      });
+
+      menuToggle.addEventListener("click", () => {
+        navLinks.classList.toggle("open");
+      });
+    </script>
+  </body>
+</html>
